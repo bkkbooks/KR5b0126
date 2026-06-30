@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5b0126/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5b0126/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 上清後聖道君列紀
+  date: '2015-08-28 23:49:43.424158'
+  source:
+    repository: kanripo
+    path: KR5b0126
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0126_000-HFL.yaml, hash: 'sha256:cced26df76e3d7a728e378b8203925656b9f8f438f52b819221e6cb1a7091bba'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0126_000-HFL.markers.yaml, hash: 'sha256:fde6361f3ff433ca1068410559e491f73961b7d9a2e18dad56fbaa2fb00efedf'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0126_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 4072
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:7d831ef6825578e53f3d41f287e82b40821b9f5d610582b22a7b5c1775d2e39e
